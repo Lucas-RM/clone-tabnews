@@ -1,7 +1,1 @@
-node_modules
 .next
-coverage
-package-lock.json
-.log
-.env
-.env.
