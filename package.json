@@ -7,7 +7,7 @@
     "dev": "node infra/scripts/run-dev.js",
     "postdev": "npm run services:stop",
     "test": "node infra/scripts/run-test.js",
-    "test:watch": "jest --watchAll --runInBand",
+    "test:watch": "jest --watchAll --runInBand --verbose",
     "services:up": "docker compose -f infra/compose.yaml up -d",
     "services:stop": "docker compose -f infra/compose.yaml stop",
     "services:down": "docker compose -f infra/compose.yaml down",
